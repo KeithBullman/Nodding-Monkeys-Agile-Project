@@ -22,10 +22,15 @@ def print_success():
         print("Success!")
 
 
+def print_failure():
+    rpint(test)
+
+
 def main():
     print_greeting()
     print_time()
     print_success()
+    print_failure()
 
 
 main()
