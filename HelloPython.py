@@ -23,7 +23,7 @@ def print_success():
 
 
 def print_failure():
-    print("Correction to Failing Function!")
+    rpirntr(test123)
 
 
 def main():
