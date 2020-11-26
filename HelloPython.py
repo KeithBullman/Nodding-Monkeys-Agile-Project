@@ -23,7 +23,8 @@ def print_success():
 
 
 def print_failure():
-    rpirntr(test123)
+    print("Resolved Failed Build!")
+    print("Newest Build @ 10:57AM on 26th Nov 2020!")
 
 
 def main():
