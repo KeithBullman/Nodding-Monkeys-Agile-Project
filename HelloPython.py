@@ -28,7 +28,7 @@ def print_failure():
 
 
 def new_failed():
-    pfitnr(tdskl)
+    print("Fixed!")
 
 
 def main():
