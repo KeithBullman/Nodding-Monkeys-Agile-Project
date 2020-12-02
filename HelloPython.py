@@ -27,11 +27,16 @@ def print_failure():
     print("Newest Build @ 10:57AM on 26th Nov 2020!")
 
 
+def new_failed():
+    pfitnr(tdskl)
+
+
 def main():
     print_greeting()
     print_time()
     print_success()
     print_failure()
+    new_failed()
 
 
 main()
