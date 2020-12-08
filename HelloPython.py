@@ -28,7 +28,7 @@ def print_failure():
 
 
 def failed_function():
-    pirnt("failed")
+    print("Success!")
 
 
 def main():
