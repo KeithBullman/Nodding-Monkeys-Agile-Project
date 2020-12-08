@@ -28,7 +28,7 @@ def print_failure():
 
 
 def failed_function():
-    pirnt("test")
+    print("test")
 
 
 def main():
