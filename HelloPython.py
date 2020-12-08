@@ -27,8 +27,8 @@ def print_failure():
     print("Newest Build @ 10:57AM on 26th Nov 2020!")
 
 
-def new_failed():
-    print("Fixed!")
+def failed_function():
+    pirnt("test")
 
 
 def main():
@@ -36,7 +36,7 @@ def main():
     print_time()
     print_success()
     print_failure()
-    new_failed()
+    failed_function()
 
 
 main()
