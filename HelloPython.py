@@ -22,20 +22,17 @@ def print_success():
         print("Success!")
 
 
-def print_failure():
-    print("Resolved Failed Build!")
-    print("Newest Build @ 10:57AM on 26th Nov 2020!")
-
-
 def failed_function():
-    print("Success!")
+    now = datetime.datetime.now()
+
+    time = now.strftime("%A, %d-%m-%Y : %H:%M")
+    print("New Build: ", time)
 
 
 def main():
     print_greeting()
     print_time()
     print_success()
-    print_failure()
     failed_function()
 
 
