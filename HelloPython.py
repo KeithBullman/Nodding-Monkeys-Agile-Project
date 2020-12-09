@@ -34,6 +34,7 @@ def main():
     print_time()
     print_success()
     failed_function()
+    raitng()
 
 
 main()
